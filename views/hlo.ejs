@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+</head>
+<body>
+
+    <div class="bg-zinc-900 w-screen h-screen p-10">
+        <a href="/read" class="text-white text-xs">Read Users</a>
+        <h1 class=" text-white font-semibold text-lg"> Create User </h1>
+
+        <form action="/create" method="post">
+
+            <input type="text" placeholder="name" name="name" class="border-2 border-gray-700 mt-2 text-gray-300 px-2 py-1 text-sm rounded outline-none ">
+            <input type="text" placeholder="email" name="email" class="border-2 border-gray-700 mt-2 text-gray-300 px-2 py-1 text-sm rounded outline-none ">
+            <input type="text" placeholder="URL" name="image" class="border-2 border-gray-700 mt-2 text-gray-300 px-2 py-1 text-sm rounded outline-none ">
+            <input type="submit" value="Create User" class="border-2 border-blue-500 bg-blue-500 mt-2 text-gray-300 px-2 py-1 text-sm rounded outline-none ml-3">
+        </form>
+
+    </div>
+</body>
+</html>
