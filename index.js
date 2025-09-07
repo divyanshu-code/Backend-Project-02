@@ -63,6 +63,4 @@ app.post('/create' , async (req, res)=>{
         res.redirect("/read")
 })
 
-
-
 app.listen(5173)
